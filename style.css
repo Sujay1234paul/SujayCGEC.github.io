@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.icon img{
+    width: 22rem;
+    height: 22rem;
+    border: none;
+    margin-top: -3rem;
+}
+.main{
+    width: 100%;
+    background: url(background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+
+.navbar{
+    width: 120rem;
+    height: 7.5rem;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 7rem;
+}
+
+.logo{
+    color:rgb(252, 183, 9);
+    font-size: 3.5rem;
+    
+    padding-left: 0rem;
+    float: left;
+    padding-top: 1rem;
+
+
+}
+
+.menu{
+    width: 40rem;
+    float:left ;
+    height: 7rem;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 7rem;
+    margin-top: 2.7rem;
+    font-size: 1.4rem;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.2s ease-in-out ;
+}
+
+.menuul li a:hover{
+    color: rgb(252, 183, 9);
+}
+
+.search{
+    width: 33rem;
+    float: left;
+    margin-left: 27rem;   
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 23rem;
+    height: 4rem;
+    background: transparent;
+    border: 1px solid rgb(252, 183, 9);
+    margin-top: 1.3rem;
+    color: white;
+    border-right: none;
+    font-size: 1.6rem;
+    float: left;
+    padding: 1.0rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    transition: .3s ease;}
+
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    background: rgb(252, 183, 9);
+    border: 2px solid rgb(252, 183, 9);
+    margin-top: 1.3rem;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 120rem;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+    font-family:Arial;
+    letter-spacing: 0.12rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 5rem;
+    padding-left: 2rem;
+    margin-top: 9%;
+    letter-spacing: 0.2rem;
+}
+
+.content .cn{
+    width: 16rem;
+    height: 4rem;
+    background: rgb(252, 183, 9);
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: rgb(252, 183, 9);
+    font-size: 5rem;
+}
+
+.content .video iframe{
+    width: 60rem;
+    height: 35rem;
+}
+.form{
+    width: 24rem;
+    height: 38rem;
+    background:linear-gradient(rgb(175, 138, 44)50%,rgb(175, 138, 44)50%);
+    position: absolute;
+    top: -2rem;
+    left: 87rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.form h2{
+    width: 22rem;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 2.2rem;
+    font-weight:lighter;
+    background-color:white;
+    border-radius: 1rem;
+    margin: .2rem;
+    padding: .8rem;
+}
+
+.form input{
+    width: 24rem;
+    height: 3.5rem;
+    background: transparent;
+    border-bottom: .1rem solid rgb(252, 183, 9);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn2{
+    width: 24rem;
+    height: 4rem;
+    background:rgb(252, 183, 9);
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease;
+}
+
+.btn2:hover{
+    background: white;
+    color: rgb(252, 183, 9);
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration:none;
+    color: rgb(70, 70, 244);
+    font-weight:600;
+    transition:0.1s;
+}
+
+.link a:hover{
+    color: rgba(67, 219, 204, 0.796);
+}
+
+.liw{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    margin-right: -1rem;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 2.15rem;
+    padding-top: .3rem;
+    align-content: center;
+}
+
+.icon ion-icon:hover{
+    color: black;
+}
+
+.video{
+    width: 40rem;
+    height: 30rem;
+}
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cad{
+    width: 100%;
+    height: auto;
+    background: url(background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+.cad{
+    enable-background: url(background.jpg);
+}
+
+.cad h2{
+    color: white;
+    font-size: 5rem;
+    margin: auto;
+    text-align: center;
+}
+.cad span{
+    color: rgb(252, 183, 9);
+    font-size: 5rem;
+}
+
+.Discipline{
+    width: 100%;
+    display: flex;
+    background: rgb(252, 183, 9);
+    padding: 5rem;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.intro1{
+    flex: 1;
+    background:black;
+    padding: 3rem;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 0.7rem;
+    margin-right: 1.5rem;
+    border: 0.2rem;
+    border-radius: 1.5rem;   
+}
+
+img{
+    
+    width: 40rem;
+    height: 18rem;
+    align-content: center;
+    align-self: center;
+}
+.intro2{
+    flex: 1;
+    background:black ;
+    padding: 3rem;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 0.7rem;
+    margin-right: 1.5rem;
+    border: 0.2rem;
+    border-radius: 1.5rem;
+}
+.intro1 .Acad{
+    width: 16rem;
+    height: 4rem;
+    background: rgb(252, 183, 9);
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+}
+ .intro1 .Acad a{
+    text-decoration: none;
+    color:black ;
+    transition: .3s ease;
+ }
+ .Acad:hover{
+    background-color:white;
+}
+
+
+
+.intro2 .Mlab{
+    width: 16rem;
+    height: 4rem;
+    background: rgb(252, 183, 9);
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+ .intro2 .Mlab a{
+    text-decoration: none;
+    color:black ;
+    transition: .3s ease;
+ }
+ .Mlab:hover{
+    background-color:white;
+}
+.Pic img{
+    display: flex;
+    width: 40rem;
+}
+
+.Section marquee{
+    width: 45rem;
+    height: 35rem;
+    background:rgb(252, 183, 9) ;
+    border-radius: 1rem;
+}
+.Section ul{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Section ul h3{
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Section ul li {
+    
+    color: black;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1.2rem;
+}
+.Section ul li a{
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: 1px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Section ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.Container .button{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    border-left: 1rem;
+    border-radius: 1rem;
+    padding-left: 1.7rem;
+    padding-top: 1.5rem;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.Container .button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    transition: .3s ease;
+}
+
+
+
+
+
+
+
+footer{
+    color: white;
+    padding: fixed;
+    bottom: 0rem;
+    width: 100%;
+    background: #111;
+}
+.main-foot{
+    display: flex;
+}
+
+.main-foot .box{
+    flex-basis: 50%;
+    padding: 1rem 2rem;
+}
+
+.box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.box .foot{
+    margin: 2rem 0 0 0;
+}
+
+.left .foot{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.second .foot{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.Third .foot{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.right .foot{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+.left .foot .social{
+    margin: 2rem 0 0 0;
+}
+.left .foot .social a{
+    padding-left:0 2rem;
+}
+
+.left .foot .social a i{
+    height: 4rem;
+    width: 4rem;
+    background: white;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.left .foot .social a i:hover{
+    background: #1a1a1a;
+
+}
+
+.Third .foot .link1 a{
+    text-decoration: none;
+    color: white;
+}
+.Third .foot .link2 a{
+    text-decoration: none;
+    color: white;
+}
+.Third .foot .link3 a{
+    text-decoration: none;
+    color: white;
+}
+.Third .foot .link4 a{
+    text-decoration: none;
+    color: white;
+}
+.Third .foot .link5 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.Third .foot .link1 a:hover{
+    text-decoration: underline;
+}
+.Third .foot .link2 a:hover{
+    text-decoration: underline;
+}
+.Third .foot .link3 a:hover{
+    text-decoration: underline;
+}
+.Third .foot .link4 a:hover{
+    text-decoration: underline;
+}
+.Third .foot .link5 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+@media(max-width:1000px){
+    html{
+        font-size: 50%;
+    }
+    
+}
+@media(max-width:828px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:728px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:628px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:528px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:420px){
+    html{
+        font-size: 25%;
+    }
+}
+
